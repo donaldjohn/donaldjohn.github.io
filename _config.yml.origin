@@ -1,11 +1,9 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-
-
 baseurl:
 url: http://zhaochanggang.com
-date_format: "ordinal"
+date_format: ordinal
 title: 赵昌刚的官方网站
 subtitle: 开源软件痴迷者
 description: 赵昌刚的官方网站
@@ -13,19 +11,17 @@ keywords: 赵昌刚, Zhao Changgang, Donaldjohn, Gangge
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
-
-#---------------- #
-#     Author      #
-#---------------- #
-
+side_bar_repo_limit: 0
 author: Zhao Changgang
 organization: CNIPR
-organization_url: http://www.cnipr.com
+organization_url: www.cnipr.com
 github_username: donaldjohn
 location: Beijing, China
 email: donaldjohn@qq.com
 
+# ---------------- #
+#    Navigation    #
+# ---------------- #
 navs:
   -
     href: /
@@ -38,6 +34,10 @@ navs:
   -
     href: /wiki/
     label: 维基
+
+  -
+    href: /links/
+    label: 链接
 
   -
     href: /about/
