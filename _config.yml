@@ -97,3 +97,5 @@ lazy_load_disqus : true
 # ---------------- #
 google:
     analytics_id: UA-98364257-1
+baidu:
+    analytics_id: 7f77913152d3f76d3c61550003bcaaea
