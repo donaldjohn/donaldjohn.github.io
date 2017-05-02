@@ -17,7 +17,7 @@
 
 **[在线预览 &rarr;](http://zhaochanggang.com)**
 
-![screenshot home](http://mazhuang.org/assets/images/screenshots/home.jpg)
+![screenshot home](http://zhaochanggang.com/assets/images/screenshots/home.jpg)
 
 ## Fork 指南
 
