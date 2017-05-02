@@ -1,8 +1,6 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-
-
 baseurl:
 url: http://zhaochanggang.com
 date_format: "ordinal"
@@ -15,10 +13,9 @@ timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
-#---------------- #
-#     Author      #
-#---------------- #
-
+# ---------------- #
+#      Author      #
+# ---------------- #
 author: Zhao Changgang
 organization: CNIPR
 organization_url: http://www.cnipr.com
@@ -26,6 +23,9 @@ github_username: donaldjohn
 location: Beijing, China
 email: donaldjohn@qq.com
 
+# ---------------- #
+#    Navigation    #
+# ---------------- #
 navs:
   -
     href: /
@@ -40,57 +40,60 @@ navs:
     label: 维基
 
   -
+    href: /links/
+    label: 链接
+
+  -
     href: /about/
     label: 关于
 
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
-    # ---------------- #
-    #       RSS        #
-    # ---------------- #
-    subscribe_rss: /feed.xml
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
 
-    # ---------------- #
-    #      Jekyll      #
-    # ---------------- #
-    markdown: kramdown
-    kramdown:
-        input: GFM
-    highlighter: rouge
-    paginate: 8
-    lsi: false
-    quiet: false
-    excerpt_separator: "\n\n"
-    permalink: /:year/:month/:day/:title/
-    gems:
-        - jekyll-github-metadata
-        - rouge
-    #     - jekyll-html-pipeline
-        - jekyll-paginate
-        - jekyll-sitemap
-        - jekyll-feed
-        - jemoji
-    #     - jekyll-mentions
-    collections:
-        wiki:
-            output: true
-            permalink: /wiki/:path/
+repository: donaldjohn/donaldjohn.github.io
 
-    repository: donaldjohn/donaldjohn.github.io
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, netease_gentie
+comments_provider: netease_gentie
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+disqus_username: mzlogin
+netease_gentie_key: 560ed243b708465d82d5a0a5f3b83da1
+# 在使用网易云跟帖时可点击显示 Disqus
+lazy_load_disqus : true
 
-    # ---------------- #
-    #      Comments    #
-    # ---------------- #
-    # support provider: disqus, netease_gentie
-    comments_provider: netease_gentie
-    # !!!重要!!! 请修改下面这些信息为你自己申请的
-    # !!!Important!!! Please modify infos below to yours
-    disqus_username: mzlogin
-    netease_gentie_key: 560ed243b708465d82d5a0a5f3b83da1
-    # 在使用网易云跟帖时可点击显示 Disqus
-    lazy_load_disqus : true
-
-    # ---------------- #
-    #    Analytics     #
-    # ---------------- #
-    google:
-        analytics_id: UA-80669434-1
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
