@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 刚哥的友联, 联系刚哥互链啊
 
 {% for link in site.data.links %}
 * [{{ link.name }}]({{ link.url }})

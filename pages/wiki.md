@@ -8,7 +8,7 @@ menu: 维基
 permalink: /wiki/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> 教程,教程,刚哥整理和转载的教程
 
 <ul class="listing">
 {% for wiki in site.wiki %}
