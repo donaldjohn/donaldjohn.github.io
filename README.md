@@ -1,8 +1,5 @@
 # 赵昌刚的官方网站
 
-本博客基于 mzlogin/mzlogin.github.io 修改
-
-
 我的个人博客：<http://zhaochanggang.com>，欢迎 Star 和 Fork。
 
 ## 概览
@@ -20,7 +17,7 @@
 
 **[在线预览 &rarr;](http://zhaochanggang.com)**
 
-![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
+![screenshot home](http://mazhuang.org/assets/images/screenshots/home.jpg)
 
 ## Fork 指南
 
