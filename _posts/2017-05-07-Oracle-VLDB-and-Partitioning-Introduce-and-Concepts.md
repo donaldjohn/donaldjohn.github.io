@@ -1,10 +1,11 @@
 ---
 layout: post
-title: [译]Oracle 超大数据及表分区指导
+title:  【译】Oracle 超大数据及表分区指导
 categories: [Database, Oracle]
 description: Oracle 超大数据及表分区指导
 keywords: Oracle, VLDB, 超大数据表, 表分区, Partitioning
 ---
+介绍了OracleVLDB和分区的概念
 > [Oracle docs原文地址](https://docs.oracle.com/cd/B28359_01/server.111/b32024/intro.htm)
 
 **目录**
