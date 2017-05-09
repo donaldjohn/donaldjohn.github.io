@@ -1,10 +1,11 @@
 ---
 layout: post
-title: [译]Oracle 超大数据及表分区指导
+title:  【译】Oracle 超大数据及表分区指导
 categories: [Database, Oracle]
 description: Oracle 超大数据及表分区指导
 keywords: Oracle, VLDB, 超大数据表, 表分区, Partitioning
 ---
+介绍了OracleVLDB和分区的概念
 > [Oracle docs原文地址](https://docs.oracle.com/cd/B28359_01/server.111/b32024/intro.htm)
 
 **目录**
@@ -239,6 +240,7 @@ Oracle 11G 允许计算字段参与分区。计算表达式作为元数据存储
 本地索引可以是唯一的。为了使本地索引唯一，表的分区键必须是索引键的一部分。
 
 **_本地索引示意图_**
+
 ![Figure 2-6](/images/Posts/OracleVLDBPartitioning/fg-2-6.gif)
 
 #### 全局分区索引
@@ -254,7 +256,7 @@ Oracle有两种类型的全局分区索引：范围分区和哈希分区。
 
 ##### 维护全局分区索引
 默认情况下，下列对堆组织表的分区的操作将标记所有的全局索引不可用。
-```SQL
+```
 ADD (HASH)
 
 COALESCE (HASH)
@@ -291,4 +293,3 @@ _**全局非分区索引示意图**_
 #### 在组合分区表上使用分区索引的两点注意事项：
 * 子分区的索引总是本地索引，和表的子分区存储在一起
 * 可以在索引或子分区索引级别指定表空间。
-
