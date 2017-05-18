@@ -12,10 +12,6 @@ favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
 # ---------------- #
 #      Author      #
 # ---------------- #
@@ -58,10 +54,14 @@ subscribe_rss: /feed.xml
 # ---------------- #
 #      Jekyll      #
 # ---------------- #
+#markdown: kramdown
+#kramdown:
+#    input: GFM
+#highlighter: rouge
 markdown: kramdown
 kramdown:
-    input: GFM
-highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 paginate: 8
 lsi: false
 quiet: false
