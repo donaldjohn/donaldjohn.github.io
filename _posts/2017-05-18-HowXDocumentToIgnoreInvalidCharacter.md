@@ -1,6 +1,6 @@
 ---
 layout: post
-title: XDocument忽略无效字符
+title: C# 解析格式不良好XML全攻略
 categories: [C#, XML]
 description: C#, XDocument, XML
 keywords: \\0xu0001, C#, XDocument, 无效字符
