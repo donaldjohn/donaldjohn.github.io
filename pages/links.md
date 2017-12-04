@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-description: 刚哥的朋友们
+description: XXXX的朋友们
 keywords: 友情链接
 comments: true
 menu: 链接
