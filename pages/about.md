@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: 关于本人
-keywords: Donaldjohn,Zhao Changgang, XXXX
+keywords: Donaldjohn,XXXX
 comments: true
 menu: 关于
 permalink: /about/
