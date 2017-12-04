@@ -1,6 +1,6 @@
-# 赵昌刚的官方网站
+# XXXX的官方网站
 
-我的个人博客：<http://zhaochanggang.com>，欢迎 Star 和 Fork。
+我的个人博客：<http://XXXXXXXXXXX.com>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -15,9 +15,9 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://zhaochanggang.com)**
+**[在线预览 &rarr;](http://XXXXXXXXXXX.com)**
 
-![screenshot home](http://zhaochanggang.com/assets/images/screenshots/home.jpg)
+![screenshot home](http://XXXXXXXXXXX.com/assets/images/screenshots/home.jpg)
 
 ## Fork 指南
 
