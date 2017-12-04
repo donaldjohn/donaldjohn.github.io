@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-> 刚哥的友联, 联系刚哥互链啊
+> XXXX的友联, 联系XXX互链啊
 
 {% for link in site.data.links %}
 * [{{ link.name }}]({{ link.url }})
