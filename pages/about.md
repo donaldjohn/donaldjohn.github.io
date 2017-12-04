@@ -2,13 +2,13 @@
 layout: page
 title: About
 description: 关于本人
-keywords: Donaldjohn,Zhao Changgang, 赵昌刚
+keywords: Donaldjohn,Zhao Changgang, XXXX
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是赵昌刚，
+我是XXXX，
 
 热衷于学习、使用开源软件，
 
